@@ -18,6 +18,11 @@
   "automerge": false,
   "packageRules": [
     {
+      "matchPackageNames": ["lodash.clamp"],
+      "matchUpdateTypes": ["minor", "patch"],
+      "groupName": "lodash minor"
+    },
+    {
       "matchPackageNames": ["isarg-2"],
       "matchUpdateTypes": ["minor", "patch"],
       "groupName": "isarg-2 minor"
