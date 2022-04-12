@@ -23,10 +23,16 @@
       "groupName": "lodash minor"
     },
     {
-      "matchPackageNames": ["isarg-2", "isarg-3"],
+      "matchPackageNames": ["isarg-2"],
       "matchUpdateTypes": ["major"],
       "enabled": false,
-      "groupName": "isarg major"
+      "groupName": "isarg-2 major"
+    },
+    {
+      "matchPackageNames": ["isarg-3"],
+      "matchUpdateTypes": ["major"],
+      "enabled": false,
+      "groupName": "isarg-3 major"
     },
     {
       "matchPackageNames": ["isarg-2"],
