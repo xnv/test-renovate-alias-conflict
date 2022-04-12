@@ -1,0 +1,17 @@
+{
+  "name": "test-renovate-alias-conflict",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "isarg-3": "npm:lodash.isarguments@^3.0.0",
+    "isarg-2": "npm:lodash.isarguments@^2.0.0"
+  }
+}
