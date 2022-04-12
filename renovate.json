@@ -1,0 +1,31 @@
+{
+  "extends": [
+    "config:base",
+    ":timezone(Asia/Tokyo)",
+    ":prConcurrentLimitNone",
+    ":prHourlyLimitNone",
+    ":dependencyDashboard",
+    ":preserveSemverRanges",
+    ":label(dependencies)",
+    ":separatePatchReleases",
+    "group:definitelyTyped"
+  ],
+  "schedule": [
+    "every weekend",
+    "after 10pm every weekday",
+    "before 6am every weekday"
+  ],
+  "automerge": false,
+  "packageRules": [
+    {
+      "matchPackageNames": ["isarg-2"],
+      "matchUpdateTypes": ["minor", "patch"],
+      "groupName": "isarg-2 minor"
+    },
+    {
+      "matchPackageNames": ["isarg-3"],
+      "matchUpdateTypes": ["minor", "patch"],
+      "groupName": "isarg-3 minor"
+    }
+  ]
+}
